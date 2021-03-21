@@ -2,6 +2,10 @@ type Query {
   getUsers: [User!]!
 }
 
+type Mutation {
+  addUser(userInput: UserInput): User!
+}
+
 type User {
   id: ID!
   username: String!
@@ -15,4 +19,15 @@ type User {
   last_checked: String
   created_at: String!
   updated_at: String!
+}
+
+input UserInput {
+  username: String!
+  name: String!
+  email: String!
+  bio: String!
+  website: String!
+  user_id: String!
+  phone_number: String!
+  profile_image: String!
 }
