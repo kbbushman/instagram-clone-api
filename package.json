@@ -1,0 +1,24 @@
+{
+  "name": "instagram-clone-api",
+  "version": "1.0.0",
+  "description": "Instagram Clone API built with GraphQL, Apollo, Prisma, and PostgreSQL",
+  "main": "index.js",
+  "engines": {
+    "node": "14.14.0"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "author": "Kenneth Bushman",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "prisma": "^2.19.0"
+  },
+  "dependencies": {
+    "apollo-server": "^2.21.2",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.5.0"
+  }
+}
