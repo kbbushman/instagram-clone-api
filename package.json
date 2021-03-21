@@ -20,5 +20,13 @@
     "apollo-server": "^2.21.2",
     "dotenv": "^8.2.0",
     "graphql": "^15.5.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbbushman/instagram-clone-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kbbushman/instagram-clone-api/issues"
+  },
+  "homepage": "https://github.com/kbbushman/instagram-clone-api#readme"
 }
